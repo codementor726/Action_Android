@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#de7c00</color>
+    <color name="colorPrimaryDark">#ed6133</color>
+    <color name="colorAccent">#e76c1e</color>
+
+    <color name="colorButton">#212322</color>
+    <color name="colorDarkGreen">#00543c</color>
+    <color name="colorLightGreen">#003422</color>
+    <color name="colorMask">#22000000</color>
+    <color name="colorStandardMask">#ff000000</color>
+    <color name="colorBlackMask">#22ffffff</color>
+    <color name="colorLightGray">#E0E0E0</color>
+</resources>

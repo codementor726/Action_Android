@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/colorBlackMask"
+        android:layout_height="@dimen/item_view_height">
+        <TextView
+                android:id="@+id/site_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                style="@style/MainText"
+                android:text="CAFE SITE"
+                android:gravity="center"
+                android:layout_marginStart="@dimen/small_margin_size"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/main_text_size"/>
+        <TextView
+                android:id="@+id/site_url"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                style="@style/MainText"
+                android:layout_gravity="right"
+                android:text="#ff3239203"
+                android:gravity="center"
+                android:layout_marginEnd="@dimen/small_margin_size"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/main_text_size"/>
+    </FrameLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@android:color/black" />
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bigger_text_size">20sp</dimen>
+    <dimen name="big_text_size">18sp</dimen>
+    <dimen name="medium_text_size">16sp</dimen>
+    <dimen name="main_text_size">14sp</dimen>
+    <dimen name="small_text_size">12sp</dimen>
+    <dimen name="mini_text_size">10sp</dimen>
+
+    <dimen name="margin_main">16dp</dimen>
+    <dimen name="bar_view_height">45dp</dimen>
+    <dimen name="item_view_height">40dp</dimen>
+    <dimen name="medium_item_view_height">28dp</dimen>
+    <dimen name="small_item_view_height">20dp</dimen>
+    <dimen name="area_view_height">80dp</dimen>
+    <dimen name="img_item_size">16dp</dimen>
+    <dimen name="medium_img_item_size">24dp</dimen>
+    <dimen name="big_img_item_size">100dp</dimen>
+    <dimen name="bigger_img_item_size">150dp</dimen>
+    <dimen name="mini_margin_size">5dp</dimen>
+    <dimen name="small_margin_size">8dp</dimen>
+    <dimen name="medium_margin_size">16dp</dimen>
+    <dimen name="minus_margin_size">-20dp</dimen>
+    <dimen name="minus_small_margin_size">-12dp</dimen>
+    <dimen name="big_margin_size">28dp</dimen>
+    <dimen name="bigger_margin_size">48dp</dimen>
+    <dimen name="mid_big_margin_size">72dp</dimen>
+    <dimen name="biggest_margin_size">96dp</dimen>
+    <dimen name="selector_margin_size">110dp</dimen>
+    <dimen name="top_view_margin_size">28dp</dimen>
+    <dimen name="radius_value">4dp</dimen>
+    <dimen name="calendar_view_margin">-405dp</dimen>
+    <dimen name="guest_logo_width">150dp</dimen>
+    <dimen name="date_item_width">50dp</dimen>
+    <dimen name="main_left_view_width">300dp</dimen>
+    <dimen name="main_left_view_height">580dp</dimen>
+    <dimen name="main_left_view_margin">-30dp</dimen>
+    <dimen name="main_left_view_margin_end">70dp</dimen>
+    <dimen name="main_right_view_width">700dp</dimen>
+    <dimen name="main_right_view_height">320dp</dimen>
+    <dimen name="main_right_view_margin">-190dp</dimen>
+    <dimen name="main_right_view_margin_end">220dp</dimen>
+    <dimen name="line_height">1dp</dimen>
+    <dimen name="search_size">70dp</dimen>
+    <dimen name="back_radius_value">3dp</dimen>
+</resources>

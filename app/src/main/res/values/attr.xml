@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="account_item">
+        <attr name="text" format="string" />
+        <attr name="image" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="title_view">
+        <attr name="title" format="string" />
+    </declare-styleable>
+    <declare-styleable name="custom_title">
+        <attr name="titleText" format="string" />
+    </declare-styleable>
+    <declare-styleable name="alarm_view">
+        <attr name="mainText" format="string" />
+        <attr name="description" format="string" />
+    </declare-styleable>
+</resources>

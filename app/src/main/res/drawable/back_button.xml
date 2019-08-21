@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item><layer-list>
+        <item>
+            <shape>
+                <solid android:color="@color/colorButton"/>
+                <stroke android:width="0dp"/>
+                <corners android:radius="@dimen/mini_margin_size"/>
+
+                <padding android:bottom="@dimen/back_radius_value" android:left="@dimen/back_radius_value" android:right="@dimen/back_radius_value" android:top="@dimen/back_radius_value" />
+            </shape>
+        </item>
+    </layer-list></item>
+</selector>

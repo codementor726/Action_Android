@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">ActionIWS</string>
+    <string name="intercom_app_id">npn6y6v9</string>
+    <string name="intercom_api_key">android_sdk-96c322bd2d608f0188529c98db673ecb5acc0e92</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email_or_account">Email or Account #</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="register">Register</string>
+    <string name="guest_access">Guest Access</string>
+    <string name="register_your_account">Register Your Account</string>
+    <string name="account_number">Account Number</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="continue_string">Continue</string>
+    <string name="your_login_details">Your Login Details</string>
+    <string name="email">Email</string>
+    <string name="choose_a_password">Choose a Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="see_your_service">See your service calendar and set reminders for collection
+        days.
+    </string>
+    <string name="confirm_your_email_password">Confirm your email and choose a password to complete
+        registration.
+    </string>
+    <string name="your_account_number_located">Your account number is located at the top right of
+        your bill.
+    </string>
+    <string name="reset_password">Reset Password</string>
+    <string name="please_enter_email">Please enter the email associated with your account or your
+        account number.
+    </string>
+    <string name="send_reset_line">Send Reset Link</string>
+    <string name="skip_registration">Skip registration and use the app with these limited
+        features.
+    </string>
+    <string name="view_upcoming_holidays">View upcoming holidays</string>
+    <string name="receive_updates">Receive updates on inclement weather</string>
+    <string name="find_answers_resources">Find answers and resources in our Support Center</string>
+    <string name="send_message_to_our_team">Send a message to our team</string>
+    <string name="got_it">Got it</string>
+    <string name="unable_to_verify">Unable to Verify</string>
+    <string name="unable_verify_description">We could not verify your account. Please try again or
+        continue as guest to
+        send us a support message
+    </string>
+    <string name="try_again">Try again</string>
+    <string name="continue_as_guest">Continue as Guest</string>
+    <string name="middle_dot">·</string>
+    <string name="next_collection">NEXT COLLECTION</string>
+    <string name="trash">TRASH</string>
+    <string name="recycling">RECYCLING</string>
+    <string name="cardboard">CARDBOARD</string>
+    <string name="compost">COMPOST</string>
+    <string name="request_service">Request Service</string>
+    <string name="support_center">Support Center</string>
+    <string name="need_help">Need Help?</string>
+    <string name="message_us">Message Us</string>
+    <string name="start_conversation">Start a conversation with one of our team members</string>
+    <string name="bulk_pickup">Bulk Pickup</string>
+    <string name="addtional_pickup">Additional Pickup</string>
+    <string name="missed_pickup">Missed Pickup</string>
+    <string name="order_new_container">Order New Container</string>
+    <string name="existing_container">Existing Container Service</string>
+    <string name="service_change">Service Change</string>
+    <string name="upcoming_holidays">Upcoming Holidays</string>
+    <string name="thanks_giving">Thanksgiving</string>
+    <string name="chrismas">Chrismas</string>
+    <string name="new_year_day">New Year day</string>
+    <string name="done">Done</string>
+    <string name="winter_schedule">Winter Storm Schedule</string>
+    <string name="labor_schedule">Labor Day Pickup Schedule</string>
+    <string name="site">Site</string>
+    <string name="type">Type</string>
+    <string name="service_type">Service Type</string>
+    <string name="requested_pickup_date">Requested Pickup Date</string>
+    <string name="site_contact">Site Contact</string>
+    <string name="site_contact_phone">Site Contact Phone Number</string>
+    <string name="special_instructions">Special Instructions (optional)</string>
+    <string name="submit_request">Submit Request</string>
+    <string name="bulk_pickup_request">Bulk Pickup Request</string>
+    <string name="po_number">PO Number (optional)</string>
+    <string name="description_tems">Describe items/Special instructions</string>
+    <string name="report_missed_pickup">Report Missed Pickup</string>
+    <string name="service_change_request">Service Change Request</string>
+    <string name="describe_change">Describe the change you would like to make:</string>
+    <string name="container_size_quality">Container Size Quantity:</string>
+    <string name="requested_dropoff_date">Requested Dropoff Date</string>
+    <string name="requested_dropoff_time">Requested Dropoff Time(2 hour window)</string>
+    <string name="quantity">Quantity</string>
+    <string name="title">Title</string>
+    <string name="register_account">Register Account</string>
+    <string name="login_details">Login Details</string>
+    <string name="sample">Sample</string>
+    <string name="select_service_type">Select Service Type:</string>
+    <string name="remove_container">Remove Container</string>
+    <string name="empty_return">Empty and Return Container</string>
+    <string name="select_container">Select Container</string>
+    <string name="requested_date">Request Date</string>
+    <string name="requested_time">Requested Time (2 hour window)</string>
+    <string name="notifications">Notifications</string>
+    <string name="email_communication">Email Communication</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="change_password">Change Password</string>
+    <string name="logout">Logout</string>
+    <string name="collection_reminder">Collection Reminder</string>
+    <string name="weather_updates">Weather Updates</string>
+    <string name="holiday_reminders">Holiday Reminders</string>
+    <string name="delays_cancellations">Delays and cancellations</string>
+    <string name="no_collections_holidays">No collections on holidays</string>
+    <string name="action_newsletter">Action Newsletter</string>
+    <string name="news_announcements">News and announcements</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="new_password_again">New Password(again)</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="change_default_site">Change Default Site</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="select_default_site">SELECT DEFAULT SITE</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone">Phone</string>
+    <string name="mobile">Mobile</string>
+    <string name="fax">Fax</string>
+    <string name="billing_address">Billing Address</string>
+    <string name="street">Street</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="tap_to_read_message">Tap below to read your new messages.</string>
+    <string name="browse_help_center">Browse the Help Center</string>
+    <string name="find_answers">Find answers to frequently asked questions</string>
+    <string name="collection_guidelines">Collection Guidelines</string>
+    <string name="work_with_us">Work With Us</string>
+    <string name="request_submitted">Request Submitted</string>
+    <string name="team_member_touch">A team member will be in touch shortly. You can review and follow up on requests in the message center.</string>
+    <string name="view_request">View Request</string>
+    <string name="return_dashboard">Return to Dashboard</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="youtube">Youtube</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="collection_recycling">Collections and Recycling</string>
+</resources>

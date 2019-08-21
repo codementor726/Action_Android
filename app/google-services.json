@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "889535786495",
+    "firebase_url": "https://action-carting-94f44.firebaseio.com",
+    "project_id": "action-carting-94f44",
+    "storage_bucket": "action-carting-94f44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889535786495:android:8a467a4c8cab7b2a",
+        "android_client_info": {
+          "package_name": "com.actionCartingEnvironmental.action"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889535786495-noemnqu106o7j1hsigdudfag24im788i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfwoRdY6tPMrsSs_vvW6oObHk_lrtFr7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889535786495-noemnqu106o7j1hsigdudfag24im788i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "889535786495-inpcivg2o6pl5b106t1c6tnau4f25hh1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.actionCartingEnvironmental.action"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

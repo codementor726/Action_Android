@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        tools:context=".activity.account.ManageSiteActivity"
+        android:orientation="vertical">
+    <com.actionCartingEnvironmental.action.view.TitleView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bar_view_height"
+            app:title="@string/change_default_site"
+    />
+    <include layout="@layout/include_address"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_no_border_edittext"
+            android:backgroundTint="@color/colorBlackMask"
+            android:layout_margin="@dimen/small_margin_size"
+            android:orientation="vertical">
+        <TextView
+                android:id="@+id/site_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_view_height"
+                style="@style/MainText"
+                android:text="@string/select_default_site"
+                android:gravity="center"
+                android:layout_marginStart="@dimen/small_margin_size"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"/>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_height"
+                android:background="@android:color/black" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/site_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/img_background"
+        tools:context=".activity.dashboard.ActionDashboardActivity">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <include layout="@layout/include_dashboard_header"/>
+                <FrameLayout
+                        android:id="@+id/selection_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/item_view_height"
+                        android:layout_marginStart="@dimen/small_margin_size"
+                        android:layout_marginEnd="@dimen/small_margin_size"
+                        android:layout_marginTop="@dimen/medium_margin_size"
+                        android:background="@drawable/back_round"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/status_bar">
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                style="@style/MainText"
+                                android:textColor="@android:color/white"
+                                tools:text="CAFE HENRIETTA"
+                                android:gravity="center"
+                                android:layout_gravity="left"
+                                />
+                        <ImageView
+                                android:layout_width="@dimen/img_item_size"
+                                android:layout_height="@dimen/img_item_size"
+                                android:layout_gravity="center|right"
+                                android:src="@drawable/img_top_arrow"
+                                android:layout_marginEnd="@dimen/medium_margin_size"/>
+                </FrameLayout>
+                <include
+                        android:id="@+id/date_view"
+                        layout="@layout/include_collection_date">
+                </include>
+                <include layout="@layout/include_help"/>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/site_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/selector_margin_size"
+                android:visibility="gone"
+                android:background="@drawable/back_border"
+                android:layout_marginLeft="@dimen/small_margin_size"
+                android:layout_marginRight="@dimen/small_margin_size"
+                android:layout_marginBottom="@dimen/small_margin_size"
+        />
+</FrameLayout>
